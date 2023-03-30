@@ -1,0 +1,75 @@
+baseurl = "https://jmachadofreitas.github.io/"
+title = "jmachadofreitas"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+enableEmoji = true
+
+paginate = 20
+
+# Enable Disqus comments
+# disqusShortname = "jmachadofreitas"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "João Machado de Freitas"
+  info = ["Biomedical Engineer", "Data Scientist"]
+  description = "João's personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/avatar.jpeg"
+  #gravatar = "john.doe@example.com"
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  # Right To Left, shift content direction for languagues such as Hebrew
+  rtl = false
+
+  dateFormat = "January 2, 2006"
+  since = 2023
+
+  enableTwemoji = true
+
+  colorScheme = "dark"  # auto, light, dark
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+  # customRemoteJS = []
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/jmachadofreitas/"
+#[[params.social]]
+#  name = "Twitter"
+#  icon = "fa fa-twitter fa-2x"
+#  weight = 3
+#  url = "https://twitter.com/jmachadofreitas/"
+#[[params.social]]
+#  name = "LinkedIn"
+#  icon = "fa fa-2x fa-linkedin"
+#  weight = 4
+#  url = "https://www.linkedin.com/in/jmachadofreitas/"
+
+
+# Menu links
+#[[menu.main]]
+#  name = "Blog"
+#  weight = 1
+#  url  = "posts/"
+#[[menu.main]]
+#  name = "About"
+#  weight = 2
+#  url = "about/"
