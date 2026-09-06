@@ -1,11 +1,12 @@
 baseurl = "https://jmachadofreitas.github.io/"
 title = "jmachadofreitas"
 theme = "hugo-coder"
-languagecode = "en"
+locale = "en"
 defaultcontentlanguage = "en"
 enableEmoji = true
 
-paginate = 20
+[pagination]
+pagerSize = 20
 
 # Enable Disqus comments
 # disqusShortname = "jmachadofreitas"
