@@ -14,11 +14,23 @@ pagerSize = 20
 [markup.highlight]
 style = "github-dark"
 
+
+[languages.en]
+languageName = "🇬🇧"
+locale = "en"
+weight = 1
+
+
+[languages.de]
+languageName = "🇩🇪"
+locale = "de-DE"
+weight = 2
+
 [params]
   author = "João Machado de Freitas"
-  info = ["Biomedical Engineer", "Data Scientist"]
+  info = ["Data Scientist", "Analytics & Machine Learning"]
   description = "João's personal website"
-  keywords = "blog,developer,personal"
+  keywords = "personal,developer,portfolio" # ,blog
   avatarurl = "images/avatar.jpeg"
   #gravatar = "john.doe@example.com"
 
@@ -33,7 +45,7 @@ style = "github-dark"
 
   enableTwemoji = true
 
-  colorScheme = "dark"  # auto, light, dark
+  colorScheme = "auto"  # auto, light, dark
   hidecolorschemetoggle = false
 
   # customCSS = ["css/custom.css"]
@@ -49,20 +61,25 @@ style = "github-dark"
 
 # Social links
 [[params.social]]
+ name = "LinkedIn"
+ icon = "fa fa-2x fa-linkedin"
+ weight = 1
+ url = "https://www.linkedin.com/in/jmachadofreitas/"
+[[params.social]]
   name = "Github"
   icon = "fa fa-github fa-2x"
-  weight = 1
+  weight = 2
   url = "https://github.com/jmachadofreitas/"
-#[[params.social]]
-#  name = "Twitter"
-#  icon = "fa fa-twitter fa-2x"
+[[params.social]]
+ name = "Google Scholar"
+ icon = "fa-brands fa-google-scholar fa-2x"
+ weight = 3
+ url = "https://scholar.google.com/citations?user=QcXsxLAAAAAJ&hl=en"
+# [[params.social]]
+#  name = "ORCID"
+#  icon = "fa-brands fa-orcid fa-2x"
 #  weight = 3
-#  url = "https://twitter.com/jmachadofreitas/"
-#[[params.social]]
-#  name = "LinkedIn"
-#  icon = "fa fa-2x fa-linkedin"
-#  weight = 4
-#  url = "https://www.linkedin.com/in/jmachadofreitas/"
+#  url = "https://orcid.org/0000-0001-8867-7574"
 
 
 # Menu links
